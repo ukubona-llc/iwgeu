@@ -821,7 +821,7 @@ You’re effectively using:
 
 
 ## III
-Indeed. And I've. this --  Axiom SVV · log(x) = β₀ + β₁·S + β₂·Vᵢ + β₃·Vₐs + β₄·Vₐf (its written in blood, as Zarathustra would appreciate). Origins of pain-- Structural (V: bone, skeletal, muscle, nerve), V_i = Visceral, V_a vascular (structural  eg cholesterol plaque and functional eg spasms). The log(x) is for computational convenience, but reality is x = (as our neuron shewed us). so there's interactions between the descending track (right sided with V_a s origins) and ascending (left sided non-nociceptive.. maybe Abeta)?
+Indeed. And I've. this --  Axiom SVV · log(x) = β₀ + β₁·S + β₂·Vᵢ + β₃·Vₐs + β₄·Vₐf (its written in blood, as Zarathustra would appreciate). Origins of pain-- Structural (V: bone, skeletal, muscle, nerve), V_i = Visceral, V_a vascular (structural  eg cholesterol plaque and functional eg spasms). The log(x) is for computational convenience, but reality is x = (as our neuron shewed us). so there's interactions between the descending track (right sided with Vₐs origins) and ascending (left sided non-nociceptive.. maybe A$\beta$)?
 
 ---
 
@@ -863,9 +863,9 @@ Exactly.
 You’ve separated origins into:
 
 $$
-S      = structural / skeletal / somatic
-V_i    = visceral
-V_{as} = vascular structural
+S      = structural / skeletal / somatic\,
+V_i    = visceral\,
+V_{as} = vascular structural\,
 V_{af} = vascular functional
 $$
 
@@ -964,17 +964,17 @@ White matter disease can impair:
 
 So your idea becomes:
 
-```text id="eq5"
-reduced inhibitory reserve
-+
-vascular dysconnectivity
-+
-aging white matter
-+
-sensitization
-→ impaired suppression
+ 
+reduced inhibitory reserve     
++                       
+vascular dysconnectivity     
++       
+aging white matter      
++     
+sensitization          
+→ impaired suppression       
 → innocuous sensory traffic crosses threshold
-```
+ 
 
 That is neurologically coherent.
 
@@ -984,9 +984,9 @@ That is neurologically coherent.
 
 The nervous system is not wired as:
 
-```text id="eq6"
+$$
 right lesion = left symptom
-```
+$$
 
 in any simplistic way once you reach:
 
@@ -1045,9 +1045,9 @@ all alter weights.
 
 ## Phase III — Activation threshold
 
-```text id="eq9"
+$$
 f(\sigma^2,\lambda,\epsilon)
-```
+$$
 
 This is essentially:
 
@@ -1162,7 +1162,9 @@ You should make them fully explicit.
 
 For example:
 
+$$
 x(t)=f\left(\beta_0+\beta_1S+\beta_2V_i+\beta_3V_{as}+\beta_4V_{af}+\gamma R(t)-\delta I(t)+\epsilon(t)\right)
+$$
 
 Where:
 
@@ -1386,7 +1388,19 @@ You are noticing recurrence of adaptive-loop topology.
 
 
 ## V
-I need to restrain the exampe of your x(t) to something mapping onto --- > θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹). FGT = federated ground truth. and \epsilon = y_pred - y_obs (subjective, including allodynia). this makes it unbelievable aligned with the neuron we viewed earlier , and your discussion of 5. Connect Phase V explicitly to reinforcement learning = on the money!!!! becuase its \theta^t .. -> L(\theta^{t+1}). So there's been gradient descent .. even stochastic, as we do drug trials (including withdrawal) and journal... low learning rate. not crazy about diagnoses . As for input, weighting, thresholding, output, update? ayayayayaya. htat is 100% neurology, which really is a system that has sustained various forms of life for 1 million years---and from the mlitary school of life, what doesn't kill me?...
+I need to restrain the exampe of your x(t) to something mapping onto: 
+
+θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹)
+
+Where FGT = federated ground truth
+
+And $\epsilon = y_pred - y_obs$ (subjective, including allodynia)
+
+This makes it unbelievable aligned with the neuron we viewed earlier, and your discussion of 5
+
+Connect Phase V explicitly to reinforcement learning = on the money!!!! 
+
+Becuase its $\theta^t$ .. → $L(\theta^{t+1})$. So there's been gradient descent .. even stochastic, as we do drug trials (including withdrawal) and journal... low learning rate. not crazy about diagnoses . As for input, weighting, thresholding, output, update? ayayayayaya. htat is 100% neurology, which really is a system that has sustained various forms of life for 1 million years---and from the mlitary school of life, what doesn't kill me?...
 
 ---
 
@@ -1644,7 +1658,7 @@ A neuron is already the prototype.
 
 In your framework, that becomes:
 
-\theta^{t+1}=\theta^t-\eta\nabla L
+$\theta^{t+1}=\theta^t-\eta\nabla L$
 
 Survival itself is iterative optimization under noisy gradients.
 
@@ -1728,7 +1742,7 @@ An 82-year-old's nervous system is not a broken machine waiting for the right dr
 
 The equation is elegant:
 
-θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹)
+θᵗ → L₀+Σwᵢ·Lᵢ → f(σ²,λ,ε) → γ\|ε_FGT\|² → L(θᵗ⁺¹)
 
 But watch the leap from **Phase IV → Phase V**.
 
