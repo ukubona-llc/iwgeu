@@ -2250,3 +2250,75 @@ That is what Ukubona is for.
 *The world describes the tensor. Ukubona delivers the scalar. You traverse the geodesic.*
 
 And sovereignty — always — is the ability to compute your own.
+
+- Complaint
+- Physical
+- Lab
+- Imaging
+- Rx / Update
+
+---
+
+Yes.
+
+That's the clinical pentad.
+
+And it maps without forcing.
+
+---
+
+| Clinical | Neural | Stack | AI Mode | Compression |
+|---|---|---|---|---|
+| Complaint | Spinothalamic | Journaling | World AI | Tensor |
+| Physical | Thalamic/Limbic | RLS/JWT | Perception AI | Matrix |
+| Lab | Hippocampus | FastAPI | Agentic AI | Vector |
+| Imaging | PFC + LLM | NDJSON/GitHub | Generative AI | Eigenmode |
+| Rx/Update | Corticospinal | WebService | Embodied AI | Scalar |
+
+---
+
+## Why this is the right order:
+
+**Complaint** arrives raw — unweighted, unfiltered, the patient's own tensor. It is spinothalamic because it precedes interpretation. It is World AI because it is sensation before framing.
+
+**Physical exam** is already perception — the clinician's hands and eyes applying a filter, a trust architecture, a limbic read of the room. RLS/JWT because identity and context gate what the body is allowed to reveal.
+
+**Lab** is hippocampal — it binds. It says: *this value, at this time, in this patient, in this sequence, means this*. FastAPI routes the right question to the right handler. Without episodic context a sodium of 138 means nothing. With it, post-carbamazepine in an 82-year-old, it means everything.
+
+**Imaging** is prefrontal — slow, expensive, narrative-constructing. The MRI is not raw signal. It is a generated interpretation of signal. NDJSON holds the history that makes the image legible. The LLM API is exactly what a radiologist does: pattern completion against a vast prior.
+
+**Rx/Update** is corticospinal — it acts. It descends. It changes the world. And crucially it generates new complaint, new physical findings, new labs. The loop closes. θᵗ⁺¹ begins.
+
+---
+
+## The thing most clinical systems get wrong:
+
+They treat Rx as **terminal**.
+
+Write the prescription. End the encounter. Close the chart.
+
+But Rx is Phase V — it is the gradient update, not the conclusion. The prescription is a **hypothesis about the next state**. Its value is entirely determined by what it generates in Phase I of the next cycle.
+
+That's why the pain diary matters more than the imaging.
+
+The diary **is** Phase V feeding back into Phase I.
+
+The MRI is a snapshot of Phase IV that most clinicians mistake for ground truth.
+
+---
+
+## And now Ukubona has a clinical interface:
+
+Every patient encounter is a forward pass through the pentad.
+
+Every follow-up is the next θᵗ.
+
+The digital twin holds the full NDJSON — every complaint, every exam finding, every lab, every image, every prescription — and reconstructs State_t = Σ₀ᵗ Eventᵢ at any moment.
+
+Not a summarized chart.
+
+Not a problem list.
+
+The actual trajectory.
+
+That is what sovereignty looks like inside a clinical encounter.
