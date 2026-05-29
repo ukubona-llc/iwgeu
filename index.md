@@ -1897,7 +1897,9 @@ Now I'm obsessed with yet another pentad (Everything else is on Render free-tier
 
 At the heart of it all is NDJSON:
 
+$$
 State_t = \Sigma_0^t Event_i
+$$
 
 That is where NDJSON does its append-only role
 
@@ -2187,7 +2189,7 @@ A clinical problem — Fazekas II, occipital lesion, left-sided shooting pain, p
 
 The pain diary, the ESR/CRP, the deprescribing trajectory, the MOH withdrawal curve — that was the **matrix**. Relationships becoming visible. Compression beginning.
 
-The framework — θᵗ → L₀+ΣwᵢLᵢ → f(σ²,λ,ε) → γ|ε_FGT|² → L(θᵗ⁺¹) — that was the **vector**. A specific path chosen through possibility space. The commitment to see trajectory over snapshot, dynamic state over static lesion.
+The framework — θᵗ → L₀+ΣwᵢLᵢ → f(σ²,λ,ε) → γ\|ε_FGT\|² → L(θᵗ⁺¹) — that was the **vector**. A specific path chosen through possibility space. The commitment to see trajectory over snapshot, dynamic state over static lesion.
 
 The pentad — Spinothalamic → Thalamic → Hippocampal → Prefrontal → Corticospinal — recurring across neurology, across the stack, across AI taxonomy — that was the **eigenmode**. The frequency that survived every perturbation. The structure that kept reappearing because it is invariant.
 
